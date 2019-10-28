@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#changeStop" prefHeight="366.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#111111" height="280.0" layoutY="89.0" stroke="RED" strokeType="INSIDE" strokeWidth="5.0" width="453.0" />
+      <ImageView fitHeight="267.0" fitWidth="433.0" layoutX="14.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/appleAd.jpg" />
+         </image></ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="145.0" layoutX="448.0" layoutY="221.0" stroke="RED" strokeType="INSIDE" strokeWidth="5.0" width="186.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="280.0" layoutX="628.0" layoutY="86.0" stroke="RED" strokeType="INSIDE" strokeWidth="5.0" width="258.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="95.0" layoutY="-1.0" stroke="RED" strokeType="INSIDE" strokeWidth="5.0" width="886.0" />
+      <Text fx:id="stops" fill="WHITE" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yonge Street" textAlignment="CENTER" wrappingWidth="886.0">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Text>
+      <Text id="greeting" fill="WHITE" layoutX="463.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Aboard" textAlignment="CENTER" wrappingWidth="156.39697265625">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="136.0" layoutX="447.0" layoutY="89.0" stroke="RED" strokeType="INSIDE" strokeWidth="5.0" width="186.0" />
+      <ImageView id="TTC image" fitHeight="77.0" fitWidth="156.0" layoutX="463.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ttcLogo.jpg" />
+         </image></ImageView>
+   </children>
+</Pane>
