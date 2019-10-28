@@ -22,5 +22,5 @@ Click Finish and now the codebase should be avaliable to you and ready to use.
 Download the Runnable Jar File *TTCSignage.jar*, located in __Final Product__. Then, just double-click the jar 
 file like you would for any normal program.
 
-** This is just a fun program I made because I love buses and coding. Feel free to give me any feedback on this 
-as I am always looking to improve and learn more. Have fun and Enjoy! :) **
+**_This is just a fun program I made because I love buses and coding. Feel free to give me any feedback on this 
+as I am always looking to improve and learn more. Have fun and Enjoy! :)_**
